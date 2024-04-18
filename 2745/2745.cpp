@@ -16,5 +16,5 @@ int main() {
             result += (strToNum - 'A' + 10) * int(pow(base, i));
         }
     }
-    cout << result << "\n";
+    cout << result;
 }
